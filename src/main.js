@@ -48,7 +48,7 @@ util.array.reverse = function(array) {
 
 util.array.average = function(array) {
   var counter = 0;
-  util.forEach(array, function(elem) {
+  util.array.forEach(array, function(elem) {
     counter += elem;
   });
   
