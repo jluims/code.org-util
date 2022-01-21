@@ -46,6 +46,15 @@ util.array.reverse = function(array) {
   return newArray;
 };
 
+util.array.average(array) {
+  var counter = 0;
+  util.forEach(array, function(elem) {
+    counter += elem;
+  });
+  
+  return counter / array.length;
+}
+
 util.array.sort = function(array, predicate) {
   
 }
