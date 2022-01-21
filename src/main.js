@@ -46,7 +46,7 @@ util.array.reverse = function(array) {
   return newArray;
 };
 
-util.array.average(array) {
+util.array.average = function(array) {
   var counter = 0;
   util.forEach(array, function(elem) {
     counter += elem;
@@ -248,4 +248,3 @@ util.anim.stopLoading = function(id) {
 util.loader.load = function(url) {
   //TODO: Do this
 };
-
